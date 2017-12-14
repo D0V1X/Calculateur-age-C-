@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Calculateur_age
+namespace TestDateTime
 {
     class Program
     {
@@ -21,6 +21,7 @@ namespace Calculateur_age
             Console.WriteLine("Bienvenue sur le calculateur d'âge. Quel est votre prénom ? ");
             strNom = Console.ReadLine();
             Console.WriteLine("************************************************************");
+
             do
             {
                 Console.Clear();
